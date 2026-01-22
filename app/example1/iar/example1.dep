@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>725167060</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_i2c.c</file>
+            <file>$PROJ_DIR$\..\bsp.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lptim.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_dac.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_crc.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lptim.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_bus.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lpuart.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\stm32l4xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\cmsis\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_crc.c</file>
+            <file>$PROJ_DIR$\..\titan_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_dac.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\system_stm32l4xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\stm32l452xx.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_exti.h</file>
+            <file>$PROJ_DIR$\startup_stm32l452xx.s</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\system_stm32l4xx.h</file>
+            <file>$PROJ_DIR$\..\titan_setup.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_utils.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc32h_rng.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_utils.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\titan_load.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\mqueue.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\mutex.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsemaphore.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\explorer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gatt.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt_common.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth_sync_buffer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_atomic.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_lptim.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_objects.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_lptim.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\base64.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_usart.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\example1.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32l4xx.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gatt_server.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_dac.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sha256.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\titan_setup.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rand.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc32h_rng.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pqueue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_dac.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt_server.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_crc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\base64.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_isr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sha256.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\cmsis\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\assert.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\notification.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\pqueue.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\nina_b312.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gatt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nina_b312.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\semaphore.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_i2c.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\semaphore.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\task.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc32.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsemaphore.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_isr.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_utils.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sha1.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\example1.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_scheduler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32l4xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sha1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_rng.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc32.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\example1.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\gatt_common.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_exti.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_rcc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\gatt_server.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\titan_setup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\explorer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\task.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_scheduler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32l452xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_objects.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\cmsis\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\notification.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\mutex.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\bsemaphore.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\bsemaphore.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\notification.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\pqueue.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\mutex.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\base64.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_defines.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\sha1.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_objects.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_scheduler.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_supervisor.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\mutex.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\notification.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\mqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\base64.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\pqueue.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\sha256.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\sha1.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\sha256.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_isr.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\md5.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\mqueue.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\task.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\md5.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_init.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\drivers\nina_b312\nina_b312.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rng.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\cpu.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rng.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_utils.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\crc32h_rng.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\crypto\aes.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\drivers\nina_b312\nina_b312.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rcc.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth_sync_buffer.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth_sync_buffer.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_system.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_tim.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_usart.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\gpio_pins.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_pwr.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\netif_common.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\assert.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mqueue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+            <file>$PROJ_DIR$\Debug\List\example1.log</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\titan_load.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_tim.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\netif_common.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_atomic.xcl</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32l452xE.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_lpuart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\md5.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_rng.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rand.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_lpuart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\kernel_utils.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\bluetooth_sync_buffer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_exti.o</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm32l4xx_ll_adc.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\assert.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\explorer\explorer.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\cmsis\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpu.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\crc32.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\rand.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\crc32.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\cpu.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\rand.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan_load.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\net\netif_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\utils\explorer\explorer.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan_load.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\rng.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\md5.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\titan\net\netif_common.c</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\cmsis\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\task.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\error.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\periph\crc32h.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 104 51 201</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lptim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 250 247 133 134 224 62 193 203 128 2 188 223 240 249 175 166 239 180 170 152 53 202</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\system_stm32l4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32l452xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\titan_setup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 250 247 133 134 224 2 188 242 229</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt_common.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt_server.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\example1.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 51 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 209 210 195 65 107 43 36 89 102 59 37 77 106 40 44 115 67 46 95 217 189 213 198 35 191 76 123 60 58 79 91 56 200 117 73 119 61 220 90 81 47 212 197 111 100 199 98 29 97 83 66 204 112 205 31 92 124</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\bsemaphore.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 127 133 134 224 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\mutex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 139 133 134 224 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 134 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_objects.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 155 233 133 134 224 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_scheduler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 155 233 133 134 224 156 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\notification.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 128 133 134 224 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\mqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 151 133 134 224 155 233 62 193 203</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\crypto\base64.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 131 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\pqueue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 129 133 134 224 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\crypto\sha1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 135 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 152 133 134 224 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\crypto\sha256.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 144 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 155 233 133 134 224 156 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\crypto\md5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 154 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 156 133 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 247 133 134 224 233 155 156</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 155 233 133 134 224 156 232 250 247</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 249 232 250 247 133 134 224 155 233 10 177 13 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\drivers\nina_b312\nina_b312.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 175 166 247 133 134 224 239 180 170 152 249 223 188 53 128 248 62 193 203 202</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 232 250 247 133 134 224 10 177 181</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 238 232 250 247 133 134 224 155 233 10 177 9 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 166 247 133 134 224 239 180 170 152 128 62 193 203 248</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\bluetooth\gatt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 170 152 133 134 224 62 193 203 118 70 202 248 166 247 239 180</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\crc32h_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 251 242 8 161 10 177 181 152 133 134 224 247 155 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\crypto\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 172 62 193 203 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 221 232 250 247 133 134 224 155 233 10 177 237</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\bluetooth\bluetooth_sync_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 180 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 223 188 10 7 6 0 23 182 181 155 233 133 134 224 152</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\periph\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 235 232 250 247 133 134 224 155 233 10 177 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\bsp\stm32l4\hal\stm32l4xx_ll_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 168 177 181 176</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\utils\explorer\explorer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 240 249 223 188 139 133 134 224 152 192 202 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\utils\crc32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 228 224 251</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\utils\rand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 229</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\titan_load.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 236 233 250 247 133 134 224 232 155</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\net\netif_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 22 16 38 28 211 93 48 196 69 245 226 101 122 25 239 62 193 203 202 118 70 224</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\bsp.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\titan_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\thread.c</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_objects.o</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_scheduler.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel.o</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_utils.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\system_stm32l4xx.o</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\cmsis\core_cm4.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\assert.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_stm32l4xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_utils.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_scheduler.o</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_atomic.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan.c</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_rcc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_isr.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\system_stm32l4xx.c</file>
+            <file>$PROJ_DIR$\Release\Obj\bsp.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\cmsis\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Release\Exe\example1.out</file>
+            <file>$PROJ_DIR$\Release\Obj\thread.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\cmsis\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Release\Obj\system_stm32l4xx.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_utils.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_init.o</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_rcc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\titan.o</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_asm_link.h</file>
+            <file>$PROJ_DIR$\Release\Obj\assert.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\assert.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\bsp.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\cmsis\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Release\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_asm.o</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_idle.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\stm32l4xx_ll_rcc.xcl</file>
+            <file>$PROJ_DIR$\Release\Exe\example1.hex</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\cmsis\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Release\Obj\semaphore.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_idle.xcl</file>
+            <file>$PROJ_DIR$\Release\List\example1.map</file>
+            <file>$PROJ_DIR$\Release\Obj\titan.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\thread.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_idle.c</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_pwr.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_init.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\system_stm32l4xx.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_utils.o</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\stm32l452xx.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\titan.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_utils.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_idle.o</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\stm32l4xx.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_atomic.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\semaphore.o</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_bus.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel.c</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_system.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_asm.h</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_atomic.o</file>
+            <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\bsp.c</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\startup_stm32l452xx.s</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_utils.c</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_isr.o</file>
+            <file>$PROJ_DIR$\Release\Obj\kernel_objects.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\thread.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_stm32l452xx.o</file>
+            <file>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_gpio.h</file>
+            <file>$PROJ_DIR$\Release\Obj\thread.o</file>
+            <file>$PROJ_DIR$\Release\Obj\bsp.o</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_asm.s</file>
+            <file>$PROJ_DIR$\Release\Obj\semaphore.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_defines.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_objects.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_scheduler.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_isr.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\kernel\kernel_init.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32l452xE.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\assert.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\titan\titan.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 55 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 108 57 91 75 92 98 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\thread.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 57 91 75 92 107 99 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\titan.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 108 99 91 75 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\arch\stm32l4\system_stm32l4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\example1.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 103 16 87 47 76 68 38 81 8 21 63 18 71 84 39 35 12 86 40 4 19 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_idle.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 57 91 75 92 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 99 92 57 41 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\bsp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 0 72 25 74 20 85</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\arch\stm32l4\startup_stm32l452xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\arch\stm32l4\hal\stm32l4xx_ll_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 20 25 74 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_asm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_atomic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_objects.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 99 91 75 92 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_scheduler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 99 91 75 92 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel_objects\semaphore.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 98 91 75 92 99 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_isr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 99 91 75 92 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 100 91 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\kernel\kernel_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 99 91 75 92 100 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\titan\assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2 69 64 14 5 3 104 26 6 102 30 45 52 36 33 62 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

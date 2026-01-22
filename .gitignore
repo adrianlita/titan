@@ -51,5 +51,16 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
+app/example1/iar/Debug/
+app/example1/iar/Release/
+app/example1/iar/settings/
+app/example1/mdk/
+
+app/uvboard/iar/Debug/
+app/uvboard/iar/Release/
+app/uvboard/iar/settings/
+app/uvboard/mdk/
+
+.vscode/BROWSE.DB
+*.DB-shm
+*.DB-wal

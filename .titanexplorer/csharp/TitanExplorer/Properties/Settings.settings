@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TitanExplorer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mainWindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="mainWindowLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="plotSignals" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Signal 0&lt;/string&gt;
+  &lt;string&gt;Signal 1&lt;/string&gt;
+  &lt;string&gt;Signal 2&lt;/string&gt;
+  &lt;string&gt;Signal 3&lt;/string&gt;
+  &lt;string&gt;Signal 4&lt;/string&gt;
+  &lt;string&gt;Signal 5&lt;/string&gt;
+  &lt;string&gt;Signal 6&lt;/string&gt;
+  &lt;string&gt;Signal 7&lt;/string&gt;
+  &lt;string&gt;Signal 8&lt;/string&gt;
+  &lt;string&gt;Signal 9&lt;/string&gt;
+  &lt;string&gt;Signal 10&lt;/string&gt;
+  &lt;string&gt;Signal 11&lt;/string&gt;
+  &lt;string&gt;Signal 12&lt;/string&gt;
+  &lt;string&gt;Signal 13&lt;/string&gt;
+  &lt;string&gt;Signal 14&lt;/string&gt;
+  &lt;string&gt;Signal 15&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="bindFromLog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="bindFromGraph" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="logWindowTimestamp" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="logWindowAlwaysOnTop" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="logWindowOpened" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="logWindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="logWindowLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="baudRate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">115200</Value>
+    </Setting>
+    <Setting Name="comPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">no ports</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
