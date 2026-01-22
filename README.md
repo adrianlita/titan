@@ -1,2 +1,5 @@
-# titan
-E-Titan first development repo
+# TitanOS
+
+Titan OS is a small framework/operating system intended for use with Cortex-Mx microcontrollers.
+
+
